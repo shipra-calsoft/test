@@ -3,7 +3,7 @@
  <!-- ANT will start execution from here by finding target "compile"  -->
  <target name="compile" depends="clean">
   <!-- Java compile parameters here  -->
-  <javac debuglevel="lines,vars,source" srcdir="src" destdir="bin" target="1.8"  source="1.8"
+  <javac debuglevel="lines,vars,source" srcdir="." destdir="bin" target="1.8"  source="1.8"
     includeantruntime="false"
     fork="true" debug="on">
  	</javac>
